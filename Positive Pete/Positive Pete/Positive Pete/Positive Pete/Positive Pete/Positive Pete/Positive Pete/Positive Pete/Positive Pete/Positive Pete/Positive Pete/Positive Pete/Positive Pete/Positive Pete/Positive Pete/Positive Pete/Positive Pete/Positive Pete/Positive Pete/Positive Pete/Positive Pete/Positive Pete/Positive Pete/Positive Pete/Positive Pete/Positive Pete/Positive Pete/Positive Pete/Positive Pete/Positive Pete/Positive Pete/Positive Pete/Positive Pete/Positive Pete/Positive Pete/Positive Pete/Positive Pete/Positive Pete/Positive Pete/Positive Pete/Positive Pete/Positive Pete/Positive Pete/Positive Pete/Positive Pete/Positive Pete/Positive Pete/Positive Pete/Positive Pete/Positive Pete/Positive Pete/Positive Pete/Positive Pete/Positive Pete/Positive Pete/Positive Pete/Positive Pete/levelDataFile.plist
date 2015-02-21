@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Level 1</key>
+	<dict>
+		<key>levelName</key>
+		<string>Positively Perfect</string>
+		<key>fileName</key>
+		<string>level1</string>
+		<key>oneStarScore</key>
+		<integer>50</integer>
+		<key>twoStarScore</key>
+		<integer>70</integer>
+		<key>threeStarScore</key>
+		<integer>80</integer>
+	</dict>
+	<key>Level 2</key>
+	<dict>
+		<key>levelName</key>
+		<string>Destroying Negative Nancy</string>
+		<key>fileName</key>
+		<string>Level2</string>
+		<key>oneStarScore</key>
+		<integer>50</integer>
+		<key>twoStarScore</key>
+		<integer>70</integer>
+		<key>threeStarScore</key>
+		<integer>80</integer>
+	</dict>
+	<key>Level 3</key>
+	<dict>
+		<key>levelName</key>
+		<string>Level 3</string>
+		<key>fileName</key>
+		<string>level3</string>
+		<key>oneStarScore</key>
+		<integer>50</integer>
+		<key>twoStarScore</key>
+		<integer>70</integer>
+		<key>threeStarScore</key>
+		<integer>80</integer>
+	</dict>
+	<key>Level 4</key>
+	<dict>
+		<key>levelName</key>
+		<string>Level 4</string>
+		<key>fileName</key>
+		<string>Level4</string>
+		<key>oneStarScore</key>
+		<integer>50</integer>
+		<key>twoStarScore</key>
+		<integer>70</integer>
+		<key>threeStarScore</key>
+		<integer>80</integer>
+	</dict>
+	<key>Level 5</key>
+	<dict>
+		<key>levelName</key>
+		<string>Level 5</string>
+		<key>fileName</key>
+		<string>Level5</string>
+		<key>oneStarScore</key>
+		<integer>50</integer>
+		<key>twoStarScore</key>
+		<integer>70</integer>
+		<key>threeStarScore</key>
+		<integer>80</integer>
+	</dict>
+	<key>Level 6</key>
+	<dict>
+		<key>levelName</key>
+		<string>Level 6</string>
+		<key>fileName</key>
+		<string>Level6</string>
+		<key>oneStarScore</key>
+		<integer>50</integer>
+		<key>twoStarScore</key>
+		<integer>70</integer>
+		<key>threeStarScore</key>
+		<integer>80</integer>
+	</dict>
+	<key>Level 7</key>
+	<dict>
+		<key>levelName</key>
+		<string>Level 7</string>
+		<key>fileName</key>
+		<string>Level7</string>
+		<key>oneStarScore</key>
+		<integer>50</integer>
+		<key>twoStarScore</key>
+		<integer>70</integer>
+		<key>threeStarScore</key>
+		<integer>80</integer>
+	</dict>
+	<key>Level 8</key>
+	<dict>
+		<key>levelName</key>
+		<string>Level 8</string>
+		<key>fileName</key>
+		<string>Level8</string>
+		<key>oneStarScore</key>
+		<integer>50</integer>
+		<key>twoStarScore</key>
+		<integer>70</integer>
+		<key>threeStarScore</key>
+		<integer>80</integer>
+	</dict>
+	<key>Level 9</key>
+	<dict>
+		<key>levelName</key>
+		<string>Level 9</string>
+		<key>fileName</key>
+		<string>Level9</string>
+		<key>oneStarScore</key>
+		<integer>50</integer>
+		<key>twoStarScore</key>
+		<integer>70</integer>
+		<key>threeStarScore</key>
+		<integer>80</integer>
+	</dict>
+	<key>Level 10</key>
+	<dict>
+		<key>levelName</key>
+		<string>Level 10</string>
+		<key>fileName</key>
+		<string>Level10</string>
+		<key>oneStarScore</key>
+		<integer>50</integer>
+		<key>twoStarScore</key>
+		<integer>70</integer>
+		<key>threeStarScore</key>
+		<integer>80</integer>
+	</dict>
+	<key>numLevels</key>
+	<integer>10</integer>
+</dict>
+</plist>

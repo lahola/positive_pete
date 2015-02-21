@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tilemap-hd" tilewidth="32" tileheight="32">
+  <image source="tilemap-hd.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="Color" value="Blue"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="Color" value="Purple"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="Color" value="Green"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="Color" value="Yellow"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztlMEKwCAMQ8va///mnQbBWdMdYg8uEASVPGqxbmbe5ABfBVfuru4gd5fGeju4vpEbYm72jkruKlPFZXmK/laykFn5s49ZViacEbO5wcwyv3CzOhTCefVz34phZfuzs87+nsw9yTdplAKy
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="30" height="20">
+  <object name="Launcher" type="launcher" x="128" y="512">
+   <properties>
+    <property name="direction" value="up"/>
+   </properties>
+  </object>
+  <object name="Pole" type="negativePole" x="864" y="544"/>
+  <object name="Site" type="shutDownSite" x="864" y="96"/>
+  <object name="Pole" type="positivePole" x="96" y="96"/>
+  <object name="Pole" type="positivePole" x="160" y="128"/>
+  <object name="Pole" type="positivePole" x="256" y="224"/>
+  <object name="speed" type="speedPad" x="544" y="160"/>
+  <object name="n" type="neutralPad" x="512" y="288"/>
+  <object name="Site" type="shutDownSite" x="160" y="192"/>
+  <object name="c" type="powerChip" x="256" y="416"/>
+  <object name="c" type="powerChip" x="736" y="352"/>
+  <object name="c" type="powerChip" x="704" y="128"/>
+  <object name="c" type="powerChip" x="832" y="224"/>
+  <object name="c" type="powerChip" x="448" y="160"/>
+  <object name="c" type="powerChip" x="448" y="192"/>
+  <object name="c" type="powerChip" x="416" y="192"/>
+  <object name="c" type="powerChip" x="416" y="160"/>
+  <object name="c" type="powerChip" x="448" y="384"/>
+  <object name="c" type="powerChip" x="672" y="448"/>
+ </objectgroup>
+</map>

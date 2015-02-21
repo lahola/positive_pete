@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tilemap-hd" tilewidth="32" tileheight="32">
+  <image source="tilemap-hd.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="Color" value="Blue"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="Color" value="Purple"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="Color" value="Green"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="Color" value="Yellow"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMBQAMxSP2jtqLyWAcRTTBQMAm6AAeQ==
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="30" height="20">
+  <object name="Launcher" type="launcher" x="64" y="448">
+   <properties>
+    <property name="direction" value="up"/>
+   </properties>
+  </object>
+  <object name="Pole" type="negativePole" x="800" y="256"/>
+  
+  <object name="Chip" type="powerChip" x="192" y="64"/>
+  <object name="Chip" type="powerChip" x="288" y="96"/>
+  <object name="Chip" type="powerChip" x="384" y="160"/>
+  <object name="Chip" type="powerChip" x="448" y="256"/>
+  <object name="Chip" type="powerChip" x="480" y="352"/>
+  <object name="Site" type="shutDownSite" x="480" y="480"/>
+  <object name="Pole" type="negativePole" x="800" y="416"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tilemap-hd" tilewidth="32" tileheight="32">
+  <image source="tilemap-hd.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="Color" value="Blue"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="Color" value="Purple"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="Color" value="Green"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="Collidable" value="True"/>
+    <property name="Color" value="Yellow"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt1jkOACAIBEA8/v9mY2FjVkXCYeEmhM4JFmghovJAVUFHxfW88l3987luFfbd+Ry3J112DTdyXq1Eu957A+1BtMc8gtzs4K7u2dpG7jAt7dO8VjZnXgv75l3W/E9EuHM1hm8C3A==
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="30" height="20">
+  <object name="Launcher" type="launcher" x="832" y="256">
+   <properties>
+    <property name="direction" value="up"/>
+   </properties>
+  </object>
+  <object name="Pole" type="negativePole" x="448" y="128"/>
+  <object name="Site" type="shutDownSite" x="128" y="128"/>
+  <object name="Pole" type="negativePole" x="320" y="128"/>
+  <object name="Site" type="shutDownSite" x="768" y="480"/>
+  <object name="Pole" type="negativePole" x="384" y="128"/>
+  <object name="Pole" type="positivePole" x="256" y="128"/>
+  <object name="reverse" type="reversePad" x="256" y="480"/>
+  <object name="Site" type="shutDownSite" x="128" y="352"/>
+  <object name="reverse" type="reversePad" x="544" y="480"/>
+  <object name="c" x="352" y="224"/>
+  <object name="c" x="352" y="256"/>
+  <object name="c" x="320" y="224"/>
+  <object name="c" x="320" y="256"/>
+  <object name="Pole" type="positivePole" x="512" y="128"/>
+ </objectgroup>
+</map>
